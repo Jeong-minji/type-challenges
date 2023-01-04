@@ -1,3 +1,5 @@
+/* Type-Challenges: No.11 */
+
 /* Tuple To Object 구현하기 */
 type TupleToObject<T extends readonly (string | number)[]> = {
   [key in T[number]]: key;
